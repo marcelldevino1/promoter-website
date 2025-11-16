@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan gaya global opsional */
+body {
+  @apply font-sans bg-white text-gray-900;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
